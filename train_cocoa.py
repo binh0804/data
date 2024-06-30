@@ -112,13 +112,13 @@ def setup(args):
     register_aistron_cocolike_instances(
         name ="annotation_cocoa_train", 
         metadata ={},
-        json_file = "/media/binh/D/ComputerVision/data/datasets/COCOA/annotations/annotations_aistron.json",
-        image_root ="/media/binh/D/ComputerVision/data/datasets/COCOA/annotations")
+        json_file = "/content/data/datasets/COCOA/annotations/annotations_aistron.json",
+        image_root ="/content/data/datasets/COCOA/annotations")
     register_aistron_cocolike_instances(
         name ="annotation_cocoa_test", 
         metadata ={},
-        json_file = "/media/binh/D/ComputerVision/data/datasets/COCOA/annotations/instances_default_aistron.json",
-        image_root ="/media/binh/D/ComputerVision/data/datasets/COCOA/annotations")
+        json_file = "/content/data/datasets/COCOA/annotations/annotations_aistron.json",
+        image_root ="/content/data/datasets/COCOA/annotations")
     # register_aistron_cocolike_instances(
     #     name ="annotation_roboflow_train", 
     #     metadata ={},
@@ -144,6 +144,7 @@ def setup(args):
     #     image_root = "/media/binh/D/ComputerVision/data/datasets/COCOA/annotations")
 
     
+    cfg.OUTPUT_DIR = "/content/data/train_outputs"
     cfg.DATASETS.TRAIN = ("annotation_cocoa_train",)
     #cfg.DATASETS.VAL = ("annotation_roboflow_valid",)
     cfg.DATASETS.TEST = ("annotation_cocoa_test",)
