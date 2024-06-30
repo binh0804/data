@@ -6,32 +6,32 @@
     "images": [
         {
             "id": 0,
-            "width": 320,
-            "height": 320,
+            "width": 640,
+            "height": 640,
             "file_name": "PNGImages/1.jpg"
         },
         {
             "id": 1,
-            "width": 320,
-            "height": 320,
+            "width": 640,
+            "height": 640,
             "file_name": "PNGImages/2.jpg"
         },
         {
             "id": 2,
-            "width": 320,
-            "height": 320,
+            "width": 640,
+            "height": 640,
             "file_name": "PNGImages/3.jpg"
         },
         {
             "id": 3,
-            "width": 320,
-            "height": 320,
+            "width": 640,
+            "height": 640,
             "file_name": "PNGImages/4.jpg"
         },
         {
             "id": 4,
-            "width": 320,
-            "height": 320,
+            "width": 640,
+            "height": 640,
             "file_name": "PNGImages/5.jpg"
         }
     ],
